@@ -1,0 +1,3 @@
+C:/Users/Bishoeri000/CLionProjects/Textures&Sprites_Assignment/cmake-build-debug/CMakeFiles/Textures_Sprites_Assignment.dir
+C:/Users/Bishoeri000/CLionProjects/Textures&Sprites_Assignment/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Bishoeri000/CLionProjects/Textures&Sprites_Assignment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
