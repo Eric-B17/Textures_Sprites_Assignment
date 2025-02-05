@@ -2,7 +2,7 @@
 
 int main() {
     InitWindow(800, 600, "Animation Basics");
-    Texture2D spriteSheet = LoadTexture("Resources/textures_sprite_anim.png");
+    Texture2D spriteSheet = LoadTexture("scarfy.png");
 
     const float frameWidth = spriteSheet.width / 4;
     const float frameHeight = spriteSheet.height;
@@ -26,8 +26,8 @@ int main() {
 
         currentFrame = 4; // Reset to frame 0 after the last frame
 
-        Rectangle sourceRec = {currentFrame * frameWidth, 0, frameWidth, frameHeight};
-        Vector2 position = {400 - frameWidth / 2, 300 - frameHeight / 2};
+        Rectangle sourceRec = {(float)currentFrame * frameWidth, 0, (float)frameWidth, frameHeight};
+        Vector2 position = {(float)400 - frameWidth / 2, (float)300 - frameHeight / 2};
 
         BeginDrawing();
         ClearBackground(RAYWHITE);
